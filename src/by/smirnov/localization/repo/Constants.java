@@ -21,5 +21,8 @@ public interface Constants {
     String DATE_PATTERN = "EEEE, dd MMMM yyyy, HH:mm:ss";
     String DIR = "user.dir";
     String ROOT = "src";
-
+    String FILE_NAME_INPUT = "txtfiles%stext_%s.txt";
+    String FILE_NAME_OUTPUT = "language%stext_%s.properties";
+    String PREFIX = "\\u";
+    String BASENAME = "by.it.smirnov.jd02_05.language.text";
 }

@@ -3,18 +3,19 @@ package by.smirnov.localization.service;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+import static by.smirnov.localization.repo.Constants.BASENAME;
+
 public enum ResManager {
     INSTANCE;
     private ResourceBundle resourceBundle;
     public Locale locale = Locale.getDefault();
-    private static final String basename = "by.it.smirnov.jd02_05.language.text";
 
     ResManager() {
-        resourceBundle = ResourceBundle.getBundle(basename, Locale.getDefault());;
+        resourceBundle = ResourceBundle.getBundle(BASENAME, Locale.getDefault());;
     }
 
     public void setLocale(Locale locale) {
-        resourceBundle = ResourceBundle.getBundle(basename, locale);
+        resourceBundle = ResourceBundle.getBundle(BASENAME, locale);
         this.locale = locale;
     }
 

@@ -5,11 +5,9 @@ import by.smirnov.localization.Runner;
 import java.io.*;
 import java.util.StringJoiner;
 
-public class Native2Ascii {
+import static by.smirnov.localization.repo.Constants.*;
 
-    public static final String FILE_NAME_INPUT = "txtfiles%stext_%s.txt";
-    public static final String FILE_NAME_OUTPUT = "language%stext_%s.properties";
-    private static final String PREFIX = "\\u";
+public class Native2Ascii {
 
     public static void main(String[] args) {
         for (String arg : args) {
