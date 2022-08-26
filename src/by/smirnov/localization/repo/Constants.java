@@ -19,4 +19,7 @@ public interface Constants {
     Locale RUSSIA = new Locale("ru", "RU");
     Locale BELARUS = new Locale("be", "BY");
     String DATE_PATTERN = "EEEE, dd MMMM yyyy, HH:mm:ss";
+    String DIR = "user.dir";
+    String ROOT = "src";
+
 }

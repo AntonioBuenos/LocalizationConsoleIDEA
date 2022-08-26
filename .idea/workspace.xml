@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca856697-af33-4409-a371-f75bb18f77d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LocalizationConsoleIDEA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/language/text.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/language/text_be.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/language/text_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/language/text_jp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/language/text_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/repo/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/service/ResManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/txtfiles/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/txtfiles/text_be.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/txtfiles/text_fr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/txtfiles/text_jp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/txtfiles/text_ru.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/util/Native2Ascii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/smirnov/localization/util/PathGetter.java" afterDir="false" />
+    <list default="true" id="ca856697-af33-4409-a371-f75bb18f77d4" name="Changes" comment="Java Localization (Console)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/localization/repo/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/localization/repo/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/smirnov/localization/util/PathGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/smirnov/localization/util/PathGetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +14,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DtO1TrQPOuWQ0sgCmvRZkGK5AT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java/Anything/LocalizationConsoleIDEA/src/by/smirnov/localization",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Anything/LocalizationConsoleIDEA/src/by/smirnov/localization&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\Anything\LocalizationConsoleIDEA\src\by\smirnov\localization" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,8 +48,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661514700399</updated>
-      <workItem from="1661514702784" duration="704000" />
+      <workItem from="1661514702784" duration="830000" />
+      <workItem from="1661515763489" duration="345000" />
     </task>
+    <task id="LOCAL-00001" summary="Java Localization (Console)">
+      <created>1661515523931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661515523931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Localization (Console)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Localization (Console)" />
   </component>
 </project>
